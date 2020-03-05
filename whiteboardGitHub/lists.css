@@ -1,0 +1,81 @@
+.site-info {
+    padding: 3em;
+}
+
+.site-info li {
+    padding-bottom: 1em;
+}
+
+.site-picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-picture li {
+    list-style: none outside;
+    display: block;
+    flex: 0 0 30%;
+    text-align: center;
+    color: #00D08E;
+    font-weight: 900;
+    margin-bottom: 2em;
+    padding-top: 2em;
+}
+
+.site-picture li img {
+    display: block;
+    margin: 0 auto 0.5em auto;
+    width: 50%;
+    height: auto;
+}
+
+.content-first .site-info {
+    list-style: none;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+.content-first .site-info svg {
+    margin-right: 1em;
+    width: 1em;
+    color: #00D08E;
+}
+
+
+/* .content-first .site-info li::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f058';
+    padding-right: 1.2em;
+    display: inline-block;
+    color: green
+} */
+
+.foot ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foot ul li {
+    list-style: none outside;
+    flex: 0 0 30%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.foot p {
+    text-align: center;
+}
+
+.foot p a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.foot ul li strong {
+    display: block;
+    font-size: 1.5em;
+    padding-bottom: 0.6em;
+}
